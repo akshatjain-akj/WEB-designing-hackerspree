@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registaration</title>
+    <style>
+        body{
+            background-image: url("assets/form_background.jpg");
+            
+            
+           
+        }
+        #form{background-color:rgb(236 236 229);
+        width:800px;
+        margin:auto;
+        font-size: 45px;
+        border-radius: 50px;
+        text-align:center;
+        padding:2px;
+        color:rgb(128 18 99);}
+        #heading
+        {background-color: rgb(234 222 247);
+        width:800px;
+        font-size: 65px;
+        text-align: center;
+        margin:auto;
+        padding:4px;
+        border-radius: 50px;
+        color: rgb(121 33 19);}
+        #form :hover{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">TEAM REGISTRATION</h1>
+    <br><br>
+    <form action="#">
+        <div id="form">
+            Team name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="teamname">
+            <br><br>
+            Team lead name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="tealeadmname">
+            <br><br>
+            Team lead email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="email" name="teamleademail">
+            <br><br>
+            Team member-2 name: <input type="text" name="teamemname-2">
+            <br><br>
+            Team member-2 email: <input type="email" name="teammemmail-2">
+            <br><br>
+            Team member-3 name: <input type="text" name="teamemname-3">
+            <br><br>
+            Team member-3 email: <input type="email" name="teammemmail-3">
+            <br><br>
+            Team member-4 name: <input type="text" name="teamemname-4">
+            <br><br>
+            Team member-4 email: <input type="email" name="teammemmail-4">
+            <br>
+            <br>
+            TECH FOR YOUR TEAM: <select name="TECH">
+                <option value="a">MERN</option>
+                <option value="b">AR/VR</option>
+                <option value="c">BLOCKCHAIN/CRYPTO</option>
+                <option value="d">ML/AI</option>
+                <option value="e">ANDROID</option>
+                <option value="f">APP DEVELOPMENT</option>
+                <option value="o">OTHER:</option>
+            </select>
+            <BR></BR>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+            
+            
+        </div>
+    </form>
+</body>
+</html>
